@@ -1,43 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <title>Nature Tech</title>
+
+  <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="cad-projects.html">CAD Projects</a>
+    <a href="about.html">About</a>
+  </nav>
+
   <header>
-    <h1>Jeremy's Website</h1>
-    <p>Student • Engineer • Creator</p>
+
+    <h1>Nature Tech</h1>
+
+    <p>
+      Exploring nature through data, engineering, and design.
+    </p>
+
   </header>
 
   <section>
-    <h2>About Me</h2>
+
+    <h2>Explore the Website</h2>
+
     <p>
-      Hi, I’m Jeremy. I’m interested in engineering, design, and building useful things.
+      A collection of environmental research,
+      outdoor engineering concepts, and analytical
+      projects focused on nature and technology.
     </p>
-  </section>
 
-  <section>
-    <h2>Projects</h2>
-    <div class="card">
-      <h3>Project One</h3>
-      <p>A short description of something I made.</p>
+    <div class="card-container">
+
+      <a class="home-card" href="research.html">
+
+        <img src="pictures/research.jpg">
+
+        <h3>Research & Analytics</h3>
+
+        <p>
+          Explore environmental observations,
+          public datasets, and analytical breakdowns
+          of natural systems.
+        </p>
+
+      </a>
+
+      <a class="home-card" href="cad-projects.html">
+
+        <img src="pictures/cad.jpg">
+
+        <h3>CAD Projects</h3>
+
+        <p>
+          Fusion 360 outdoor gadgets and engineering
+          concepts for hiking, camping, and exploration.
+        </p>
+
+      </a>
+
     </div>
-    <div class="card">
-      <h3>Project Two</h3>
-      <p>Another project description goes here.</p>
+
+    <div class="featured-project">
+
+      <img src="pictures/featured.jpg">
+
+      <div class="featured-text">
+
+        <h2>Featured Project</h2>
+
+        <h3>Portable River Flow Sensor</h3>
+
+        <p>
+          A conceptual outdoor device designed to measure
+          stream velocity and environmental conditions
+          during hikes and field exploration.
+        </p>
+
+      </div>
+
     </div>
+
   </section>
 
-  <section>
-    <h2>Contact</h2>
-    <p>Email: your-email@example.com</p>
-  </section>
-
-  <button onclick="sayHello()">Click Me</button>
-
-  <script src="script.js"></script>
 </body>
+
 </html>
